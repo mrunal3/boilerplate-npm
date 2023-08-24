@@ -1,8 +1,14 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "Mrunal",
+	"description": "A project that does something awesome",
+	"keywords": [ "descriptive", "related", "words" ],
+	"version": "1.2.0",
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.14.0",
+		"package": "major_version.minor_version.patch_version",
+		"sample_package": "~1.3.8",
+		"sample_package2": "^1.3.8"
 	},
 	"main": "server.js",
 	"scripts": {
@@ -11,5 +17,6 @@
 	"repository": {
 		"type": "git",
 		"url": "https://idontknow/todo.git"
-	}
+	},
+	"license": "ExampleLicense"
 }
